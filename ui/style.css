@@ -1,0 +1,66 @@
+.pull-right {
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.center {
+    margin: auto;
+}
+
+.container_tall {
+    height: 30vh;
+}
+
+/*.button_nav {*/
+/*    width: 70px;*/
+/*    height: 36px;*/
+/*}*/
+
+.button_nav img {
+    margin-right: 0;
+    /*height: 30px;*/
+    /*width: 30px;*/
+}
+
+.message {
+    height: 200px;
+}
+
+.button_huge {
+    width: 400px;
+    height: 100px;
+}
+
+#no-spinners input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+#highlight-message {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+#highlight-message label span {
+    visibility: hidden;
+    width: 0;
+    margin: 0;
+}
+
+#fill_container {
+    max-width: 421px;
+    height: 90px;
+}
+
+#fill_container .block {
+    padding-top: 1px;
+    background: var(--background-fill-secondary);
+}
+
+#inputs {
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
